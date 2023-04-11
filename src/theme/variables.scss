@@ -1,0 +1,17 @@
+// 白天模式
+:root {
+    --bg-color: #FFFFFF;
+    /* 背景色 */
+    --text-color: #000000;
+    /* 文字颜色 */
+}
+
+// 黑夜模式
+body.dark-mode {
+    --bg-color: #000000;
+    /* 背景色 */
+    --text-color: #FFFFFF;
+    /* 文字颜色 */
+}
+
+s
