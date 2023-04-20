@@ -1,0 +1,11 @@
+:root {
+    --bg-contrast: #ffffff;
+    --text-top-color: #5a5e66; //顶部菜单按钮颜色
+    --top-box-shadow: rgba(0, 21, 41, 0.08); //顶部菜单底边阴影
+}
+
+html.dark {
+    --bg-contrast: #000000;
+    --text-top-color: #c0c0c0;
+    --top-box-shadow: rgba(225, 225, 225, 0.32);
+}

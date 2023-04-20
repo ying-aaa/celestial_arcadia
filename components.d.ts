@@ -9,11 +9,30 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    EddyBel: typeof import('./src/components/mutual/EddyBel.vue')['default']
+    ElAside: typeof import('element-plus/es')['ElAside']
+    ElButton: typeof import('element-plus/es')['ElButton']
+    ElContainer: typeof import('element-plus/es')['ElContainer']
     ElDropdown: typeof import('element-plus/es')['ElDropdown']
     ElDropdownItem: typeof import('element-plus/es')['ElDropdownItem']
     ElDropdownMenu: typeof import('element-plus/es')['ElDropdownMenu']
+    ElFooter: typeof import('element-plus/es')['ElFooter']
+    ElHeader: typeof import('element-plus/es')['ElHeader']
     ElIcon: typeof import('element-plus/es')['ElIcon']
+    ElMain: typeof import('element-plus/es')['ElMain']
+    ElMenu: typeof import('element-plus/es')['ElMenu']
+    ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
+    ElMenuItemGroup: typeof import('element-plus/es')['ElMenuItemGroup']
+    ElRow: typeof import('element-plus/es')['ElRow']
+    ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
+    ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
+    ElText: typeof import('element-plus/es')['ElText']
+    Header: typeof import('./src/components/common/Header.vue')['default']
+    Menu: typeof import('./src/components/common/Menu.vue')['default']
+    QySearch: typeof import('./src/components/plugin/QySearch.vue')['default']
+    QyTabs: typeof import('./src/components/plugin/QyTabs.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    VinodJang: typeof import('./src/components/mutual/VinodJang.vue')['default']
   }
 }

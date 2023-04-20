@@ -1,0 +1,90 @@
+// 背景图片居中
+.backdrop-fit {
+    background-position: center center;
+    background-size: cover;
+}
+
+// 全局怪异盒子
+input {
+    box-sizing: border-box;
+}
+
+// 撑满高度
+.strut-height {
+    height: 100%;
+}
+
+// flex
+.flex-grow {
+    flex: 1;
+}
+
+.flex-s-a {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-s-b {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+// 公共字体大小
+.f-size-12 {
+    font-size: 12px;
+}
+
+.f-size-12 {
+    font-size: 12px;
+}
+
+.f-size-14 {
+    font-size: 14px;
+}
+
+.f-size-16 {
+    font-size: 16px;
+}
+
+.f-size-18 {
+    font-size: 18px;
+}
+
+.f-size-20 {
+    font-size: 20px;
+}
+
+.f-size-22 {
+    font-size: 22px;
+}
+
+.f-size-24 {
+    font-size: 24px;
+}
+
+.f-size-26 {
+    font-size: 26px;
+}
+
+.f-size-28 {
+    font-size: 28px;
+}
+
+.f-size-30 {
+    font-size: 30px;
+}
+
+// 公共加粗
+.f-weight-200 {
+    font-weight: 200;
+}
+
+.f-weight-500 {
+    font-weight: 500;
+}
+
+.f-weight-700 {
+    font-weight: 700;
+}

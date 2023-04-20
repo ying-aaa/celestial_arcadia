@@ -1,0 +1,13 @@
+// 黑夜模式
+:root.dark {
+    /* 背景色 */
+    --bg-color: #000000;
+    /* 文字颜色 */
+    --text-color: #FFFFFF;
+    // menu菜单背景色
+    --sl-bg-color: #0B0F1B;
+    // 未选中文字颜色
+    --un-text-color: #B5B5B5;
+    // 选中颜色
+    --on-text-color: #D5D5D5
+}
